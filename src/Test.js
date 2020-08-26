@@ -28,11 +28,11 @@ class Test extends React.Component {
 
   render() {
     return (
-      <div class="chat-log">
+      <div className="chat-log">
         <h5>Chat log</h5>
         <ul>
           {this.state.text.map(movie => {
-            return <li key={`movie-${movie.id}`}>{movie.chatm}<br /></li>
+            return <li key={`movie-${movie.ID}`}>{movie.chatm}<br /></li>
           })}
         </ul>
       </div>
