@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 
 
 //yes
-// const socket = io.connect('134.122.73.207');
-const socket = io.connect('localhost:8334');
+const socket = io.connect('134.122.73.207');
+// const socket = io.connect('localhost:8334');
 
 function Chat() {
   const [state, setStaet] = useState({ message: '', name: '', time: '' })

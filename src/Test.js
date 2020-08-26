@@ -16,7 +16,7 @@ class Test extends React.Component {
   }
 
   componentDidMount() {
-    var myRequest = new Request('http://localhost:8333/getchat');
+    var myRequest = new Request('http://me-api.thisisabad.site/getchat');
     let text = [];
 
     fetch(myRequest)
